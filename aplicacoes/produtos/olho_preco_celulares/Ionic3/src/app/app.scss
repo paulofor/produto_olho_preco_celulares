@@ -23,3 +23,13 @@
 .classe-teste {
     color: map-get($colors, primary);
 }
+.tabela {
+    background-color: white;
+}
+.linhaTitulo {
+    background-color:#A6CBE8;
+    color:black;
+}
+.separaLinha {
+    border-bottom: 1px solid #A0A0A0;
+}

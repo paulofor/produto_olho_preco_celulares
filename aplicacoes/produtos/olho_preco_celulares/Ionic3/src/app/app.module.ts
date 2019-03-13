@@ -12,6 +12,7 @@ import { OportunidadeDetalhePage } from '../pages/oportunidade-detalhe/oportunid
 import { OportunidadeListaPage } from '../pages/oportunidade-lista/oportunidade-lista';
 import { PrecoAparelhoHistoricoPage } from '../pages/preco-aparelho-historico/preco-aparelho-historico';
 import { HomePage } from '../pages/home/home';
+import { DetalheComEstatisticaPage } from '../pages/detalhe-com-estatistica/detalhe-com-estatistica';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomePage } from '../pages/home/home';
     AparelhoListaPage,
     OportunidadeDetalhePage,
     OportunidadeListaPage,
-    PrecoAparelhoHistoricoPage
+    PrecoAparelhoHistoricoPage,
+    DetalheComEstatisticaPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { HomePage } from '../pages/home/home';
     AparelhoListaPage,
     OportunidadeDetalhePage,
     OportunidadeListaPage,
-    PrecoAparelhoHistoricoPage
+    PrecoAparelhoHistoricoPage,
+    DetalheComEstatisticaPage
   ],
   providers: [
     StatusBar,

@@ -9,6 +9,7 @@ import { PrecoAparelhoHistoricoPage } from '../pages/preco-aparelho-historico/pr
 import { OportunidadeListaPage } from '../pages/oportunidade-lista/oportunidade-lista';
 import { OportunidadeDetalhePage } from '../pages/oportunidade-detalhe/oportunidade-detalhe';
 import { HomePage } from '../pages/home/home';
+import { DetalheComEstatisticaPage } from '../pages/detalhe-com-estatistica/detalhe-com-estatistica';
 
 @Component({
   templateUrl: 'app.html'
@@ -28,7 +29,8 @@ export class MyApp {
       { title: 'Aparelho-Lista' , component: AparelhoListaPage},
       { title: 'Preco-Historico' , component: PrecoAparelhoHistoricoPage},
       { title: 'Oportunidade-List' , component: OportunidadeListaPage},
-      { title: 'Oportunidade-Detalhe' , component: OportunidadeDetalhePage}
+      { title: 'Oportunidade-Detalhe' , component: OportunidadeDetalhePage},
+      { title: 'Detalhe-Estatistica' , component: DetalheComEstatisticaPage},
     ];
 
   }
