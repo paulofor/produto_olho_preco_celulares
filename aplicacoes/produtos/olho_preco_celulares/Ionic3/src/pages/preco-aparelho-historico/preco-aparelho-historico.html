@@ -1,0 +1,37 @@
+<!--
+  Generated template for the PrecoAparelhoHistoricoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="titulo">
+    <ion-title>Histórico de Preços</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="quadroTela">
+
+  <ion-card>
+    <ion-card-header>
+        <h2 text-wrap>Smartphone Samsung Galaxy J8</h2>
+        <h3 text-end>Casas Bahia</h3>
+        <ion-row>
+            <ion-col col-1></ion-col>
+            <ion-col col-10>
+                <img height="120" src="https://images-americanas.b2w.io/produtos/01/00/offers/01/00/item/133731/1/133731122_1GG.png">
+            </ion-col>
+            <ion-col col-1></ion-col>
+        </ion-row>
+    </ion-card-header>
+    <ion-card-content>
+      <canvas id="cv01" baseChart height="250" [datasets]="barChartData" [labels]="barChartLabels"
+        [options]="barChartOptions" [legend]="barChartLegend" [chartType]="barChartType"></canvas>
+
+    </ion-card-content>
+  </ion-card>
+
+
+
+
+</ion-content>

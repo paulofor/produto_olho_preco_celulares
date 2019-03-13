@@ -1,0 +1,60 @@
+(11-03-2019)
+
+Link de cores:
+
+https://ionicframework.com/docs/theming/color-generator
+
+
+https://coolors.co/
+
+https://coolors.co/ccd7c5-efd2cb-c7a27c-d65780-ee9480
+
+
+(08-03-2019)
+
+Trabalho com imagem.
+
+
+
+
+(07-03-2019)
+
+historico de preço com gráfico.
+
+
+
+(06-03-2019)
+
+
+
+
+
+(02-03-2019)
+
+Executar projeto. Funcionou. 
+
+Quais são as páginas ?
+
+--> Aparelhos
+
+. Lista de Aparelhos
+
+
+--> Preços
+
+. Aparelho com historico de preço
+. 
+
+
+
+--> Oportunidade
+
+. Oportunidade do Dia -> Lista
+. Oportunidade do Dia -> Detalhe
+
+
+(01-03-2019)
+
+Criar o projeto.
+
+

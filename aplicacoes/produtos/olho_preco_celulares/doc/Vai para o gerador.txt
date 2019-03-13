@@ -1,0 +1,28 @@
+$colors: (
+  ...
+  tela:       #f4f4f4,
+  titulo:     #488aff,
+  botao:      #488aff
+);
+
+app.component.ts
+----------------
+
+ constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+    this.initializeApp();
+
+    // used for an example of ngFor and navigation
+    this.pages = [
+      { title: 'Aparelho-Lista' , component: AparelhoListaPage},
+      { title: 'Preco-Historico' , component: PrecoAparelhoHistoricoPage},
+      { title: 'Oportunidade-List' , component: OportunidadeListaPage},
+      { title: 'Oportunidade-Detalhe' , component: OportunidadeDetalhePage}
+    ];
+
+  }
+
+app.module.ts
+-------------
+
+
+
