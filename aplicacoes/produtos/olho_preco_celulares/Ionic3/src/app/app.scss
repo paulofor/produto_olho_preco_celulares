@@ -20,3 +20,6 @@
 .felicidade {
     color: #6a7f90
 }
+.classe-teste {
+    color: map-get($colors, primary);
+}
